@@ -6,6 +6,8 @@ $(document).ready(function(){
 			$('.on').toggleClass('off',"switch");
 		});					
 
+	console.log('turn off!');
+	$(this).removeClass('on').addClass('off');
 
 	$('button').click(function(event){
 		event.preventDefault();
@@ -18,3 +20,4 @@ $(document).ready(function(){
 	});	
 
 });
+
