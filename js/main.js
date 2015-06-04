@@ -15,7 +15,6 @@ $(document).ready(function(){
 		else{
 			$('.status').text("It's so bright in here!");
 		}
-	});
-		
+	});	
 
 });
